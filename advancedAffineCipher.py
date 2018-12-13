@@ -1,3 +1,5 @@
+SYMBOLS = """ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~"""
+
 class AffineCipher:
     def translate(key, message, mode):
         keyA, keyB = getKeyParts(key)
